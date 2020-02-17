@@ -1,0 +1,10 @@
+.search__highlights-title {
+  position: relative;
+  top: 65px;
+  width: 200px;
+  margin: auto;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #fff;
+}

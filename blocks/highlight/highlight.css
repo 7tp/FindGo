@@ -1,0 +1,13 @@
+@import url(./__item/highlight__item.css);
+@import url(./__logo/highlight__logo.css);
+@import url(./__background/highlight__background.css);
+@import url(./__image/highlight__image.css);
+@import url(./__title/highlight__title.css);
+
+.highlight {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  width: 580px;
+  margin: 138px auto 0 auto;
+}

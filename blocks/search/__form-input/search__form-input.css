@@ -1,0 +1,14 @@
+.search__form-input {
+  width: 500px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 2px;
+  border: none;
+  box-sizing: border-box;
+
+  padding-left: 28px;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #323031;
+}

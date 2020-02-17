@@ -1,0 +1,6 @@
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1136px;
+  margin: auto;
+}

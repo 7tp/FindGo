@@ -1,0 +1,13 @@
+.header__button-add-listing {
+  width: 151px;
+  height: 40px;
+  align-self: center;
+  margin-left: 40px;
+
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+
+  font-size: 15px;
+}

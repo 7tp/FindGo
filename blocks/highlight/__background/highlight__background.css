@@ -1,0 +1,9 @@
+.highlight__background {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url(../../../image/highlight.svg);
+  opacity: 0.14;
+}

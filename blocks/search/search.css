@@ -1,0 +1,14 @@
+@import url(./__title/search__title.css);
+@import url(./__subtitle/search__subtitle.css);
+@import url(./__form/search__form.css);
+@import url(./__form-input/search__form-input.css);
+@import url(./__form-button/search__form-button.css);
+@import url(./__form-img/search__form-img.css);
+@import url(./__highlights-title/search__highlights-title.css);
+@import url(./__highlights-title-img/search__highlights-title-img.css);
+
+.search {
+  padding: 124px 0 33px 0;
+  background-color: #0f0f10;
+  color: #fff;
+}

@@ -1,0 +1,8 @@
+.footer__store-title {
+  grid-area: title;
+  width: 156px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2;
+  align-self: end;
+}

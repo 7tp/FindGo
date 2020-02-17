@@ -1,0 +1,11 @@
+.subtitle {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 40px auto;
+
+  font-family: Rubik;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #8d8d8d;
+}

@@ -1,0 +1,15 @@
+.search__form-button {
+  width: 153px;
+  height: 60px;
+  margin-left: 10px;
+  background-color: #fb3640;
+  border-radius: 2px;
+  border: none;
+  box-sizing: border-box;
+
+  font-family: DINPro;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #fff;
+}

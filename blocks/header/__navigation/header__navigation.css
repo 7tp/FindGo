@@ -1,0 +1,5 @@
+.header__navigation {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 44px;
+}

@@ -1,0 +1,7 @@
+.search__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 700px;
+  margin: 40px auto 0 auto;
+}

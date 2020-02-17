@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/barlow-v4-latin-regular.woff) format('woff');
+  src: url(./fonts/barlow-v4-latin-regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/rubik-v9-latin-regular.woff) format('woff');
+  src: url(./fonts/rubik-v9-latin-regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  src: url(./fonts/rubik-v9-latin-300.woff) format('woff');
+  src: url(./fonts/rubik-v9-latin-300.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'DINPro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/DINPro.woff) format('woff');
+  src: url(./fonts/DINPro.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'DINPro';
+  font-style: normal;
+  font-weight: 500;
+  src: url(./fonts/DINPro-Medium.woff) format('woff');
+  src: url(./fonts/DINPro-Medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'DINPro';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./fonts/DINPro-Bold.woff) format('woff');
+  src: url(./fonts/DINPro-Bold.woff2) format('woff2');
+}

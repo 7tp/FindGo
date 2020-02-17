@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" sizes="any" type="image/svg+xml" href="./image/favicon.svg">
+  <link rel="icon" type="image/png" href="./image/icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="City Guide">
+  <meta name="keywords" content="HTML5, CSS, Java Script">
+  <meta name="author" content="Irinatrif">
+  <title>Find&Go.</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./blocks/flickity/flickity.css" media="screen">
+</head>
+<body>
+  <header class="header">
+    <div class="header__content">
+      <a class="header__logo" href="./index.html">
+        <img class="header__logo-image" src="./image/findgo_logo.svg" alt="find&go logo">
+        <span class="logo-name">Find&Go<img src="./image/ellipse.svg" alt="red dot"></span>
+      </a>
+      <div class="header__nav-btn">
+        <nav class="header__navigation">
+          <a class="header__link" href="./index.html">
+            <img src="./image/nav_here.svg" alt="here"> Home
+            <span class="header__link-open"></span>
+          </a>
+          <a class="header__link" href="#">Explore
+            <span class="header__link-open">
+              <img src="./image/nav_open.svg" alt="open"></span>
+            </a>
+          <a class="header__link" href="#">Listings
+            <span class="header__link-open"> <img src="./image/nav_open.svg" alt="open"></span>
+          </a>
+          <a class="header__link" href="#">Destinations
+            <span class="header__link-open"></span>
+          </a>
+          <a class="header__link" href="#">Pages
+            <span class="header__link-open"></span>
+          </a>
+        </nav>
+        <button class="header__button-add-listing">
+          <img class="header__button-add-cross" src="./image/cross.svg" alt="add">Add Listing
+        </button>
+        <button class="header__button-login"><img src="./image/login.svg" alt="Login"></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="search">
+    <h1 class="search__title">Discover The City Gems</h1>
+    <h3 class="search__subtitle">Find great places to stay, eat, shop, or visit from local experts.</h3>
+
+    <form class="search__form">
+      <label class="search__form-field">
+        <input class="search__form-input" placeholder="What are you looking for?" required>
+        <span class="search__form-error"></span>
+      </label>
+      <button class="search__form-button">Search <img class="discover__form-img" src="./image/search.svg" alt="search"></button>
+    </form>
+
+    <h3 class="search__highlights-title">Or Browse The Highlights
+      <img class="search__highlights-title-img" src="image/arrowdown.png" alt="look down">
+    </h3>
+
+    <div class="highlight">
+      <a class="highlight__item" href="#">
+        <div class="highlight__logo">
+          <div class="highlight__background"></div>
+          <img class="highlight__image" src="./image/nightlife.svg" alt="nightlife">
+        </div>
+        <h3 class="highlight__title">Nightlife</h3>
+      </a>
+
+      <a class="highlight__item" href="#">
+        <div class="highlight__logo">
+          <div class="highlight__background"></div>
+          <img class="highlight__image" src="./image/hotels.svg" alt="hotels">
+        </div>
+        <h3 class="highlight__title">Hotels</h3>
+      </a>
+
+      <a class="highlight__item" href="#">
+        <div class="highlight__logo">
+          <div class="highlight__background"></div>
+          <img class="highlight__image" src="./image/outdoor.svg" alt="outdoor">
+        </div>
+        <h3 class="highlight__title">Outdoor Activities</h3>
+      </a>
+
+      <a class="highlight__item" href="#">
+        <div class="highlight__logo">
+          <div class="highlight__background"></div>
+          <img class="highlight__image" src="./image/shops.svg" alt="shops">
+        </div>
+        <h3 class="highlight__title">Shops</h3>
+      </a>
+
+      <a class="highlight__item" href="#">
+        <div class="highlight__logo">
+          <div class="highlight__background"></div>
+          <img class="highlight__image" src="./image/restaurant.svg" alt="restaurant">
+        </div>
+        <h3 class="highlight__title">Restaurant</h3>
+      </a>
+
+    </div>
+
+  </section>
+
+  <main>
+    <section class="cities">
+      <div class="container">
+        <h2 class="title">Happening Cities</h2>
+        <h3 class="subtitle">Cities you must explore this summer</h3>
+        <div class="cities__grid">
+
+        </div>
+      </div>
+    </section>
+
+    <section class="popular">
+      <div class="container">
+        <h2 class="title">Most Visited Places</h2>
+        <h3 class="subtitle">Explore the greates places in the city. You won’t be disappointed.</h3>
+        <div class="popular__slider main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "pageDots": false, "arrowShape": "M 35,50 L 60,75 L 60,70 L 40,50  L 60,30 L 60,25 Z" }'>
+          <div class="carousel-cell"></div>
+          <div class="carousel-cell"></div>
+          <div class="carousel-cell"></div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="locals">
+      <div class="container">
+        <h2 class="title">See How It Works</h2>
+        <h3 class="subtitle">Discover & connect with great local businesses</h3>
+        <div class="locals__grid">
+
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="container">
+        <h2 class="title">News & Tips</h2>
+        <h3 class="subtitle">Checkout latest news and articles from our blog</h3>
+        <div class="news__grid">
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="footer__grid">
+
+      <a class="footer__logo" href="./index.html">
+        <img class="footer__logo-image" src="./image/findgo_logo.svg" alt="find&go logo">
+        <span class="logo-name">Find&Go<img src="./image/ellipse.svg" alt="red dot"></span>
+      </a>
+      <h3 class="footer__title">Pages</h3>
+      <h3 class="footer__title">The Highlights</h3>
+      <h3 class="footer__title">My Account</h3>
+      <h3 class="footer__title">Download App</h3>
+
+      <div class="footer__navigation footer__text">
+        <div>Collins Street West, Victoria 8007, Australia.</div>
+        <div>+1 246-345-0695</div>
+        <div>info@example.com</div>
+      </div>
+
+      <nav class="footer__navigation">
+        <a href="#" class="footer__text">Contact</a>
+        <a href="#" class="footer__text">Events</a>
+        <a href="#" class="footer__text">Members</a>
+        <a href="#" class="footer__text">Blog</a>
+        <a href="#" class="footer__text">Services</a>
+      </nav>
+
+      <nav class="footer__navigation">
+        <a href="#" class="footer__text">Dinner</a>
+        <a href="#" class="footer__text">Restaurants</a>
+        <a href="#" class="footer__text">Hotel</a>
+        <a href="#" class="footer__text">Coffee</a>
+        <a href="#" class="footer__text">Club & bar</a>
+      </nav>
+
+      <nav class="footer__navigation">
+        <a href="#" class="footer__text">Dashboad</a>
+        <a href="#" class="footer__text">Listings</a>
+        <a href="#" class="footer__text">Events</a>
+        <a href="#" class="footer__text">Favorites</a>
+        <a href="#" class="footer__text">Cart</a>
+      </nav>
+
+      <div class="footer__stores">
+        <div class="footer__store-block">
+          <div class="footer__store-logo">
+            <img class="footer__store-img" src="./image/apple.svg" alt="apple store">
+          </div>
+          <div class="footer__store-title">App Store</div>
+          <div class="footer__store-text">Available now on the</div>
+        </div>
+        <div class="footer__store-block">
+          <div class="footer__store-logo">
+            <img class="footer__store-img" src="./image/google-play.svg" alt="google play">
+          </div>
+          <div class="footer__store-title">Google Play</div>
+          <div class="footer__store-text">Get in on</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <div class="footer__content">
+        <div class="footer__text">&copy; 2018 Find&Go All rights reserved. Design by Creative Layers</div>
+        <nav class="footer__social">
+          <a class="footer__social-icon" href="https://www.facebook.com" target="_blank">
+            <img src="./image/fb_logo.png" alt="facebook">
+          </a>
+          <a class="footer__social-icon" href="https://twitter.com/" target="_blank">
+            <img src="./image/twitter_logo.png" alt="twitter">
+          </a>
+          <a class="footer__social-icon" href="https://www.instagram.com/" target="_blank">
+            <img src="./image/instagram_logo.png" alt="instagram">
+          </a>
+          <a class="footer__social-icon" href="https://www.pinterest.ru/" target="_blank">
+            <img src="./image/pinterest_logo.png" alt="pinterest">
+          </a>
+          <a class="footer__social-icon" href="https://dribbble.com/" target="_blank">
+            <img src="./image/dribble_logo.png" alt="dribble">
+          </a>
+          <a class="footer__social-icon" href="https://myaccount.google.com/" target="_blank">
+            <img src="./image/google_logo.png" alt="google">
+          </a>
+        </nav>
+        <button class="footer__button-up">
+          <img class="footer__button-up-image" src="./image/arrow.svg" alt="up">
+        </button>
+      </div>
+    </div>
+
+
+  </footer>
+
+  <script src="./index.js"></script>
+  <script src="blocks/flickity/flickity.js"></script>
+</body>
+</html>

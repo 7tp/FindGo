@@ -1,0 +1,21 @@
+@import url(./__content/header__content.css);
+@import url(./__nav-btn/header__nav-btn.css);
+@import url(./__title/header__title.css);
+@import url(./__logo/header__logo.css);
+@import url(./__logo-image/header__logo-image.css);
+@import url(./__title-name/header__title-name.css);
+@import url(./__title-dot/header__title-dot.css);
+@import url(./__navigation/header__navigation.css);
+@import url(./__link/header__link.css);
+@import url(./__link-open/header__link-open.css);
+@import url(./__button-add-listing/header__button-add-listing.css);
+@import url(./__button-add-cross/header__button-add-cross.css);
+@import url(./__button-login/header__button-login.css);
+
+.header {
+  height: 80px;
+  line-height: 80px;
+  background-color: #0f0f10;
+  color: #fff;
+  border: none;
+}

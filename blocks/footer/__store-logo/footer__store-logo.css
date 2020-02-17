@@ -1,0 +1,4 @@
+.footer__store-logo {
+  grid-area: logo;
+  margin: 17px;
+}
