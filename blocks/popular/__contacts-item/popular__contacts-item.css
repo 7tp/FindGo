@@ -1,0 +1,9 @@
+.popular__contacts-item {
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+  color: #8b8b8b;
+  border: none;
+  padding: 0;
+}

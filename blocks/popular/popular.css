@@ -1,4 +1,25 @@
+@import url(./__slider/popular__slider.css);
+@import url(./__item/popular__item.css);
+@import url(./__tag/popular__tag.css);
+@import url(./__image/popular__image.css);
+@import url(./__image-footer/popular__image-footer.css);
+@import url(./__image-footer-item/popular__image-footer-item.css);
+@import url(./__image-preview/popular__image-preview.css);
+@import url(./__image-like/popular__image-like.css);
+@import url(./__object/popular__object.css);
+@import url(./__title/popular__title.css);
+@import url(./__text/popular__text.css);
+@import url(./__info/popular__info.css);
+@import url(./__info-item/popular__info-item.css);
+@import url(./__rating-score/popular__rating-score.css);
+@import url(./__restaurant-image/popular__restaurant-image.css);
+@import url(./__opened-closed/popular__opened-closed.css);
+@import url(./__contacts/popular__contacts.css);
+@import url(./__contacts-item/popular__contacts-item.css);
+@import url(./__contacts-image/popular__contacts-image.css);
+
 .popular {
   padding: 60px;
   background-color: #f8fafa;
+  box-sizing: border-box;
 }

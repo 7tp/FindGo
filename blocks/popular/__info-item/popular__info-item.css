@@ -1,0 +1,12 @@
+.popular__info-item {
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  border-right: 1px solid #ebebeb;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.popular__info-item:last-child {
+  border: none;
+}

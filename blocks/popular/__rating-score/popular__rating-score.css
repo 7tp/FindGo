@@ -1,0 +1,9 @@
+.popular__rating-score {
+  width: 27px;
+  height: 18px;
+  background-color: #b4c52c;
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+  margin-right: 10px;
+}

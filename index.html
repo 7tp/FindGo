@@ -9,7 +9,7 @@
   <meta name="description" content="City Guide">
   <meta name="keywords" content="HTML5, CSS, Java Script">
   <meta name="author" content="Irinatrif">
-  <title>Find&Go.</title>
+  <title>Find&amp;Go.</title>
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="stylesheet" href="./blocks/flickity/flickity.css" media="screen">
 </head>
@@ -18,7 +18,7 @@
     <div class="header__content">
       <a class="header__logo" href="./index.html">
         <img class="header__logo-image" src="./image/findgo_logo.svg" alt="find&go logo">
-        <span class="logo-name">Find&Go<img src="./image/ellipse.svg" alt="red dot"></span>
+        <span class="logo-name">Find&amp;Go</span><img src="./image/ellipse.svg" alt="red dot">
       </a>
       <div class="header__nav-btn">
         <nav class="header__navigation">
@@ -100,7 +100,7 @@
       <a class="highlight__item" href="#">
         <div class="highlight__logo">
           <div class="highlight__background"></div>
-          <img class="highlight__image" src="./image/restaurant.svg" alt="restaurant">
+          <img class="highlight__image" src="./image/restaurant_highlight.svg" alt="restaurant">
         </div>
         <h3 class="highlight__title">Restaurant</h3>
       </a>
@@ -111,46 +111,243 @@
 
   <main>
     <section class="cities">
-      <div class="container">
-        <h2 class="title">Happening Cities</h2>
-        <h3 class="subtitle">Cities you must explore this summer</h3>
-        <div class="cities__grid">
 
-        </div>
+      <h2 class="title">Happening Cities</h2>
+      <h3 class="subtitle">Cities you must explore this summer</h3>
+      <div class="cities__grid grid">
+        <a class="cities__item cities__item_1" href="#">
+          <h4 class="cities__item-title">Istanbul</h4>
+          <p class="cities__item-listings">7 listings</p>
+        </a>
+        <a class="cities__item cities__item_2" href="#">
+          <h4 class="cities__item-title">Hon Kong</h4>
+          <p class="cities__item-listings"></p>
+        </a>
+        <a class="cities__item cities__item_3" href="#">
+          <h4 class="cities__item-title">New York</h4>
+          <p class="cities__item-listings"></p>
+        </a>
+        <a class="cities__item cities__item_4" href="#">
+          <h4 class="cities__item-title">Sydney</h4>
+          <p class="cities__item-listings"></p>
+        </a>
+        <a class="cities__item cities__item_5" href="#">
+          <h4 class="cities__item-title">Sydney</h4>
+          <p class="cities__item-listings"></p>
+        </a>
+        <a class="cities__item cities__item_6" href="#">
+          <h4 class="cities__item-title">London</h4>
+          <p class="cities__item-listings"></p>
+        </a>
       </div>
+
     </section>
 
     <section class="popular">
-      <div class="container">
-        <h2 class="title">Most Visited Places</h2>
-        <h3 class="subtitle">Explore the greates places in the city. You won’t be disappointed.</h3>
-        <div class="popular__slider main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "pageDots": false, "arrowShape": "M 35,50 L 60,75 L 60,70 L 40,50  L 60,30 L 60,25 Z" }'>
-          <div class="carousel-cell"></div>
-          <div class="carousel-cell"></div>
-          <div class="carousel-cell"></div>
+
+      <h2 class="title">Most Visited Places</h2>
+      <h3 class="subtitle">Explore the greates places in the city. You won’t be disappointed.</h3>
+      <div class="popular__slider main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "pageDots": false, "arrowShape": "M 35,50 L 60,75 L 60,70 L 40,50  L 60,30 L 60,25 Z" }'>
+
+        <div class="popular__item carousel-cell">
+
+          <div class="popular__image">
+            <div class="popular__image-footer">
+              <button class="popular__image-footer-item popular__button-preview" href="#">
+                <img class="popular__image-preview" src="./image/preview.svg" alt="preview">
+                <span>Preview</span>
+              </button>
+              <button class="popular__image-footer-item popular__button-like">
+                <span>Save</span>
+                <img class="popular__image-like" src="./image/like.svg" alt="like">
+              </button>
+            </div>
+          </div>
+
+          <div class="popular__object">
+            <h4 class="popular__title">Hills Restaurant</h4>
+            <p class="popular__text">Delicious, luxury food for you</p>
+            <div class="popular__info">
+              <div class="popular__info-item">
+                <div class="popular__rating-score">4,5</div>
+                <span class="popular__rating-quantity">3&nbsp;Ratings</span>
+              </div>
+              <div class="popular__info-item">
+                <img class="popular__restaurant-image" src="./image/restaurant.svg" alt="restaurant">
+                <span>Restaurant</span>
+              </div>
+              <div class="popular__opened-closed popular__info-item">Open</div>
+            </div>
+            <div class="popular__contacts">
+              <button class="popular__contacts-item">
+                <img class="popular__contacts-place popular__contacts-image" src="./image/placepoint.svg" alt="placepoint">
+                <span>Roma, Italy</span>
+              </button>
+              <button class="popular__contacts-item">
+                <img class="popular__contacts-phone popular__contacts-image" src="./image/phone.svg" alt="phone">
+                <span>+ 44 20 456 823</span>
+              </button>
+            </div>
+          </div>
 
         </div>
+
+        <div class="popular__item carousel-cell">
+
+          <div class="popular__image">
+            <div class="popular__image-footer">
+              <button class="popular__image-footer-item popular__button-preview" href="#">
+                <img class="popular__image-preview" src="./image/preview.svg" alt="preview">
+                <span>Preview</span>
+              </button>
+              <button class="popular__image-footer-item popular__button-like">
+                <span>Save</span>
+                <img class="popular__image-like" src="./image/like.svg" alt="like">
+              </button>
+            </div>
+          </div>
+
+          <div class="popular__object">
+            <h4 class="popular__title">Urban Hotels</h4>
+            <p class="popular__text">Delicious, luxury food for you</p>
+            <div class="popular__info">
+              <div class="popular__info-item">
+                <div class="popular__rating-score">4,5</div>
+                <span class="popular__rating-quantity">3&nbsp;Ratings</span>
+              </div>
+              <div class="popular__info-item">
+                <img class="popular__restaurant-image" src="./image/restaurant.svg" alt="restaurant">
+                <span>Restaurant</span>
+              </div>
+              <div class="popular__opened-closed popular__info-item">Closed</div>
+            </div>
+            <div class="popular__contacts">
+              <button class="popular__contacts-item">
+                <img class="popular__contacts-place popular__contacts-image" src="./image/placepoint.svg" alt="placepoint">
+                <span>London, England</span>
+              </button>
+              <button class="popular__contacts-item">
+                <img class="popular__contacts-phone popular__contacts-image" src="./image/phone.svg" alt="phone">
+                <span>+ 44 20 456 823</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="popular__item carousel-cell">
+
+          <div class="popular__image">
+            <div class="popular__tag">
+              <div class="tag">$10 $20</div>
+            </div>
+            <div class="popular__image-footer">
+              <button class="popular__image-footer-item popular__button-preview" href="#">
+                <img class="popular__image-preview" src="./image/preview.svg" alt="preview">
+                <span>Preview</span>
+              </button>
+              <button class="popular__image-footer-item popular__button-like">
+                <span>Save</span>
+                <img class="popular__image-like" src="./image/like.svg" alt="like">
+              </button>
+            </div>
+          </div>
+
+          <div class="popular__object">
+            <h4 class="popular__title">Liberty Club</h4>
+            <p class="popular__text">Delicious, luxury food for you</p>
+            <div class="popular__info">
+              <div class="popular__info-item">
+                <div class="popular__rating-score">4,5</div>
+                <span class="popular__rating-quantity">3&nbsp;Ratings</span>
+              </div>
+              <div class="popular__info-item">
+                <img class="popular__restaurant-image" src="./image/restaurant.svg" alt="restaurant">
+                <span>Restaurant</span>
+              </div>
+              <div class="popular__opened-closed popular__info-item">Open</div>
+            </div>
+            <div class="popular__contacts">
+              <button class="popular__contacts-item">
+                <img class="popular__contacts-place popular__contacts-image" src="./image/placepoint.svg" alt="placepoint">
+                <span>Istanbul, Turkey</span>
+              </button>
+              <button class="popular__contacts-item">
+                <img class="popular__contacts-phone popular__contacts-image" src="./image/phone.svg" alt="phone">
+                <span>+ 44 20 456 823</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
       </div>
+
     </section>
 
     <section class="locals">
-      <div class="container">
-        <h2 class="title">See How It Works</h2>
-        <h3 class="subtitle">Discover & connect with great local businesses</h3>
-        <div class="locals__grid">
 
-        </div>
+      <h2 class="title">See How It Works</h2>
+      <h3 class="subtitle">Discover & connect with great local businesses</h3>
+      <div class="locals__grid grid">
+        <a class="locals__item locals__item_1">
+          <img class="locals__image" src="./image/calendar.svg" alt="calendar">
+          <div class="locals__line"></div>
+          <h4 class="locals__title">Choose What To Do</h4>
+          <p class="locals__text">Aliquam lorem ante, dapibus in, viverra quis, feugiat
+            Phasellus viverra nulla ut
+            metus varius laoreet.</p>
+        </a>
+        <a class="locals__item locals__item_2">
+          <img class="locals__image" src="./image/map.svg" alt="map">
+          <div class="locals__line"></div>
+          <h4 class="locals__title">Find What You Want</h4>
+          <p class="locals__text">Aliquam lorem ante, dapibus in, viverra quis, feugiat
+            Phasellus viverra nulla ut
+            metus varius laoreet.</p>
+        </a>
+        <a class="locals__item locals__item_3">
+          <img class="locals__image" src="./image/globe.svg" alt="globe">
+          <h4 class="locals__title">Amazing Places</h4>
+          <p class="locals__text">Aliquam lorem ante, dapibus in, viverra quis, feugiat
+            Phasellus viverra nulla ut
+            metus varius laoreet.</p>
+        </a>
       </div>
+
     </section>
 
     <section class="news">
-      <div class="container">
-        <h2 class="title">News & Tips</h2>
-        <h3 class="subtitle">Checkout latest news and articles from our blog</h3>
-        <div class="news__grid">
 
-        </div>
+      <h2 class="title">News & Tips</h2>
+      <h3 class="subtitle">Checkout latest news and articles from our blog</h3>
+      <div class="news__grid grid">
+
+        <a class="news__item news__item_1">
+          <div class="news__footer">
+            <div class="news__footer-background"></div>
+            <div class="news__date">January 18, 2018</div>
+            <div class="news__title">Making Coffee, since 1845. Coffee For All</div>
+          </div>
+        </a>
+        <a class="news__item news__item_2">
+          <div class="tag">Lifestyle, News</div>
+          <div class="news__footer">
+            <div class="news__footer-background"></div>
+            <div class="news__date">February 25, 2018</div>
+            <div class="news__title">The Best Music For Your Entertainment</div>
+          </div>
+        </a>
+        <a class="news__item news__item_3">
+          <div class="news__footer">
+            <div class="news__footer-background"></div>
+            <div class="news__date">April 04, 2018</div>
+            <div class="news__title">How to Wear a Headscarf Like a Gucci Muse</div>
+          </div>
+        </a>
+
       </div>
+
     </section>
 
   </main>
@@ -159,7 +356,7 @@
 
       <a class="footer__logo" href="./index.html">
         <img class="footer__logo-image" src="./image/findgo_logo.svg" alt="find&go logo">
-        <span class="logo-name">Find&Go<img src="./image/ellipse.svg" alt="red dot"></span>
+        <span class="logo-name">Find&amp;Go<img src="./image/ellipse.svg" alt="red dot"></span>
       </a>
       <h3 class="footer__title">Pages</h3>
       <h3 class="footer__title">The Highlights</h3>
@@ -217,7 +414,7 @@
 
     <div class="footer__bottom">
       <div class="footer__content">
-        <div class="footer__text">&copy; 2018 Find&Go All rights reserved. Design by Creative Layers</div>
+        <div class="footer__text">&copy; 2018 Find&amp;Go All rights reserved. Design by Creative Layers</div>
         <nav class="footer__social">
           <a class="footer__social-icon" href="https://www.facebook.com" target="_blank">
             <img src="./image/fb_logo.png" alt="facebook">
@@ -248,6 +445,6 @@
   </footer>
 
   <script src="./index.js"></script>
-  <script src="blocks/flickity/flickity.js"></script>
+  <script src="./blocks/flickity/flickity.js"></script>
 </body>
 </html>

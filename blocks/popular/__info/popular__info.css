@@ -1,0 +1,9 @@
+.popular__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 18px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #28b8dc;
+  padding: 0 20px 0 20px;
+}

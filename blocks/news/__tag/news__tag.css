@@ -1,0 +1,19 @@
+.news__tag {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  
+  width: 123px;
+  height: 30px;
+
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+
+
+  color: #fff;
+  background-color: #28b8dc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  z-index: 2;
+}

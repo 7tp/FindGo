@@ -1,3 +1,10 @@
+@import url(./__grid/locals__grid.css);
+@import url(./__item/locals__item.css);
+@import url(./__image/locals__image.css);
+@import url(./__line/locals__line.css);
+@import url(./__title/locals__title.css);
+@import url(./__text/locals__text.css);
+
 .locals {
-  padding: 60px;
+  padding: 60px 60px 0 60px;
 }

@@ -1,0 +1,4 @@
+.news__grid {
+  grid-template-rows: 1fr;
+  grid-auto-flow: row;
+}
